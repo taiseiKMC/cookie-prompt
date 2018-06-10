@@ -7,13 +7,17 @@ zshのプロンプト表示にするものです
 
 # Install
 
-1. init.shの/path/toを編集する
-```
-2: cookie_path="/path/to/cookie-prompt"
-```
-2. zshrcに書き込む
+1. zshrcに書き込む
 ```
 cat init.sh >> ~/.zshrc
+```
+2. zshrcの/path/toを編集する
+```
+cookie_path="/path/to/cookie-prompt"
+```
+3. 反映する
+```
+source ~/.zshrc
 ```
 
 # 素材
