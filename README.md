@@ -20,6 +20,9 @@ cookie_path="/path/to/cookie-prompt"
 source ~/.zshrc
 ```
 
+# Voice
+soxを導入し、wavファイルを0001.wavという感じの名前で/cookie-prompt/voices以下に入れ、init.shのコメント部を外すと再生されます
+
 # 素材
 ## テキスト
 - https://www59.atwiki.jp/cokkie_zikkyou/pages/16.html
